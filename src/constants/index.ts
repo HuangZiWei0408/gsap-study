@@ -92,21 +92,7 @@ const profileLists: ProfileType[] = [
 ]
 
 const featureLists = ['Perfectly balanced blends', 'Garnished to perfection', 'Ice-cold every time', 'Expertly shaken & stirred']
-type GoodType = Record<'title', string>
-const goodLists: GoodType[] = [
-  {
-    title: 'Handpicked ingredients'
-  },
-  {
-    title: 'Signature techniques'
-  },
-  {
-    title: 'Bartending artistry in action'
-  },
-  {
-    title: 'Freshly muddled flavors'
-  }
-]
+const goodLists: string[] = ['Handpicked ingredients', 'Signature techniques', 'Bartending artistry in action', 'Freshly muddled flavors']
 
 type StoreInfoType = Record<'heading' | 'address' | 'contact', string>
 const storeInfo: StoreInfoType = {
